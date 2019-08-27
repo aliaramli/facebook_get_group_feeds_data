@@ -1,0 +1,5 @@
+python facebook_get_messages.py "https://graph.facebook.com/v3.2/<group_id>/feed?access_token=<access_toke>limit=<result_limit_per_query>" <loop_limit(how much we want to dig. if query is 10 per result 10*loop_limit will  be the total data we gonna get)> <csv_number_to_append_for_current_script_running>
+
+be caution with FB rate limit :D
+
+python facebook_get_messages.py "https://graph.facebook.com/v3.2/162266100886597/feed?access_token=EAACW5Fg5N2IBACxib1lPRBoUQShxtgcZBZCJZCysW6UzFl58EDZCryLBGK8fUTNB1eS6yC9xOcJ6YX8YungaEaEYZAXQjlBlXEbJpvnHPv65LbaAWxMVo09UzsTNg2S7Pw0ZBY0S82GGkZD&limit=100" 5 10
